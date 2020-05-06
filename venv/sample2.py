@@ -14,6 +14,7 @@ class Stringcount:
            temp.clear()
            print(newlist,"temp:",temp)
        print(newlist,temp)
+        print("Hello")
 if __name__ =="__main__":
     object=Stringcount()
     lst=list(map(int,input().split()))
